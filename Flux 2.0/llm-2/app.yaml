@@ -1,0 +1,9 @@
+name: llm 2
+description: Simple chatbot with Cloud LLM
+ports: []
+bricks:
+- arduino:web_ui: {}
+- arduino:cloud_llm:
+    variables:
+      API_KEY: ""
+icon: ✨
